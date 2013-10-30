@@ -1,9 +1,3 @@
-<?php
-  $bg = array('intro-bg.jpg', '5110886-2.jpg'); // array of filenames
-
-  $i = rand(0, count($bg)-1); // generate random number size of the array
-  $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
-?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -39,11 +33,7 @@
 	<style type="text/css">
 		@media screen and (min-width: 481px) {			
 			#section-home {
-				/*<?php echo $selectedBg; ?>*/
-				background-image: url(img/<?= $selectedBg ?>);
-				/*background-image:url("../img/intro-bg.jpg");*/
-				/*background-image:url("img/5110886.jpg");*/
-				/*background-image:url("../img/rotator.php");*/
+				background-image: url(img/5110886-2.jpg);
 			}			
 		}
 	</style>    
